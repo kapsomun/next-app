@@ -7,7 +7,7 @@ import {allEvents} from "../../../utils/data.json"
 
 function EventsInCityPage({params}) {
     const data = allEvents;
-    const id = params.cat;
+    const id = params.city;
     const events = data.filter(e => e.city == id)
     
   return (

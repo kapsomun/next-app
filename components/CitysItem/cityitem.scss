@@ -1,0 +1,34 @@
+.city {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid rgb(58, 51, 51);
+    background-color: rgb(47, 70, 47);
+    border-radius: 5px;
+    padding: 0 0 20px;
+    height: 100%;
+    cursor: pointer;
+    &__img {
+    width: 100%;
+    display: block;
+    max-height: 250px;
+    object-fit: cover;
+    }
+    &__title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: aquamarine;
+    padding: 0 10px;
+    }
+    &__descr {
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+    padding: 0 10px;
+
+    }
+}
